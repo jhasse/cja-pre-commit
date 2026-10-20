@@ -1,0 +1,9 @@
+-   id: cja-format
+    name: cja format
+    description: Format CMake files with cja format.
+    entry: cja format
+    args: ["-i"]
+    require_serial: true
+    language: python
+    types: [file]
+    files: (\.cmake|CMakeLists.txt)(.in)?$
