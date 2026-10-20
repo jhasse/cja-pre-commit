@@ -7,3 +7,11 @@
     language: python
     types: [file]
     files: (\.cmake|CMakeLists.txt)(.in)?$
+-   id: cja-format-changed
+    name: cja format (changed lines)
+    description: Format only the changed lines of CMake files with cja format.
+    entry: cja-format-changed
+    require_serial: true
+    language: python
+    types: [file]
+    files: (\.cmake|CMakeLists.txt)(.in)?$
