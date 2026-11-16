@@ -9,7 +9,7 @@ You can use `cja format` with a pre-commit hook by adding the following to `.pre
 ```yaml
 repos:
 - repo: https://github.com/jhasse/cja-pre-commit
-  rev: 0.10.0
+  rev: v0.10.0
   hooks:
   - id: cja-format
 ```
