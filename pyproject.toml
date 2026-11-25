@@ -4,7 +4,7 @@ version = "0.0.0"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 dependencies = [
-    "cja==0.10.3",
+    "cja==0.11.2",
 ]
 
 [project.scripts]
